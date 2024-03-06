@@ -16,7 +16,7 @@ jobs:
     - name: Mirror + trigger CI
       uses: SvanBoxel/gitlab-mirror-and-ci-action@master
       with:
-        args: "https://bvssel:${{ secrets.token }}@gitlab.com/pfe20243/react-sample-app.git"
+        args: "https://chifaaBel:${{ secrets.token }}@gitlab.com/react-sample.git"
       env:
         FOLLOW_TAGS: "false"
         FORCE_PUSH: "false"
